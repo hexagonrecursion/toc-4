@@ -9,3 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/toc-generator@v3.1.4
+        with:
+          CREATE_PR: true
